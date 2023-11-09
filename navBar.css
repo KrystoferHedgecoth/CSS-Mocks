@@ -1,0 +1,79 @@
+/* Styles for the navigation bar */
+.navbar {
+    background-color: #333;
+    display: flex;
+    justify-content: flex-start; /* Aligns buttons to the left */
+    align-items: center; /* Vertically center-aligns items within the navbar */
+}
+
+/* Style for the links */
+.navbar a {
+    display: block; /* Makes links block-level for better styling */
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none; /* Removes underlines from the links */
+}
+
+.navbar a:hover {
+    background-color: #555;
+    color: #fff;
+}
+
+.navbar a.active {
+    background-color: #4CAF50;
+    color: #fff;
+}
+
+
+/* Clear floats (clearfix) to ensure proper layout */
+.navbar::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+/* Styles for the dropdown menu */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Style for the dropdown button */
+.dropbtn {
+    background-color: #333;
+    color: #fff;
+    padding: 14px 16px;
+    border: none;
+    cursor: pointer;
+    display: flex; /* Use flexbox to center-align content */
+    justify-content: center; /* Horizontally center-align content */
+    align-items: center; /* Vertically center-align content */
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    min-width: 160px;
+    z-index: 1;
+}
+
+/* Change link color on hover */
+.dropdown-content a:hover {
+    background-color: #555;
+}
+
+/* Add a slight delay when hiding the dropdown content */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Hide the dropdown content with a delay when not hovering */
+.dropdown-content a {
+    color: #fff;
+    text-decoration: none;
+    justify-content: center; /* Horizontally center-aligns content */
+    align-items: center; /* Vertically center-aligns content */
+    height: 100%; /* Ensures the link takes up the full height of the dropdown */
+    padding: 2 16px; /* Adds horizontal padding */
+}

@@ -1,0 +1,238 @@
+h1 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.exercise-container {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center horizontally */
+    margin-top: 20px; /* Add some top margin for spacing */
+}
+
+/* Styles for each exercise */
+.exercise {
+    text-align: center;
+    margin-bottom: 20px; /* Add some bottom margin for spacing between exercises */
+}
+
+.exerciseOne-container,
+.exerciseTwo-container,
+.exerciseThree-container,
+.exerciseFour-container,
+.exerciseFive-container {
+    width: 500px;
+    height: 300px;
+    border:2px solid black;
+    margin: 10px;
+    position: relative;
+}
+
+p {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Styling for Boxes within exercise One */
+
+.one {
+    width: 80px;
+    height: 80px;
+    background-color: red;
+  }
+  
+  .two {
+    width: 60px;
+    height: 60px;
+    background-color: yellow;
+  }
+  
+  .three {
+    width: 40px;
+    height: 40px;
+    background-color: green;
+  }
+  
+  .four {
+    width: 20px;
+    height: 20px;
+    background-color: blue;
+  }
+
+/* Styling for Boxes within exercise Two */
+
+  .twoOne {
+    width: 80px;
+    height: 80px;
+    background-color: red;
+  }
+  
+  .twoTwo {
+    width: 60px;
+    height: 60px;
+    background-color: yellow;
+  }
+  
+  .twoThree {
+    width: 40px;
+    height: 40px;
+    background-color: green;
+  }
+  
+  .twoFour {
+    width: 20px;
+    height: 20px;
+    background-color: blue;
+  }
+
+  /* Styling for Boxes within exercise Three */
+  .threeOne {
+    width: 80px;
+    height: 80px;
+    background-color: red;
+  }
+  
+  .threeTwo {
+    width: 60px;
+    height: 60px;
+    background-color: yellow;
+  }
+  
+  .threeThree {
+    width: 40px;
+    height: 40px;
+    background-color: green;
+  }
+  
+  .threeFour {
+    width: 20px;
+    height: 20px;
+    background-color: blue;
+  }
+  /* Styling for Boxes within exercise Four */
+  .fourOne {
+    width: 80px;
+    height: 80px;
+    background-color: red;
+  }
+  
+  .fourTwo {
+    width: 60px;
+    height: 60px;
+    background-color: yellow;
+  }
+  
+  .fourThree {
+    width: 40px;
+    height: 40px;
+    background-color: green;
+  }
+  
+  .fourFour {
+    width: 20px;
+    height: 20px;
+    background-color: blue;
+  }
+  /* Styling for Boxes within exercise Five */
+  .fiveOne {
+    width: 80px;
+    height: 80px;
+    background-color: red;
+  }
+  
+  .fiveTwo {
+    width: 60px;
+    height: 60px;
+    background-color: yellow;
+  }
+  
+  .fiveThree {
+    width: 40px;
+    height: 40px;
+    background-color: green;
+  }
+  
+  .fiveFour {
+    width: 20px;
+    height: 20px;
+    background-color: blue;
+  }
+/* Exercise One */
+
+  .one {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    justify-content: center;
+  }
+.exerciseOne-container > .two,.three,.four {
+    position: relative;
+    top: 10px;
+    left: 10px;
+  }
+
+/* exercise Two */
+
+.twoFour {
+        position: absolute;
+        top: 0;
+        right: 0;
+}
+
+/* exercise Three */
+.threeOne {
+    position: relative;
+  }
+  
+  .threeThree {
+    position: absolute;
+    bottom: 0;
+    right: -40px;
+  }
+  
+  .threeFour {
+    position: absolute;
+    bottom: 0;
+  }
+
+/* exercise Four */
+
+.fourOne {
+    position: relative;
+  }
+  
+  .fourTwo, .fourFour {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+  
+  .fourThree {
+    position: absolute;
+    top: -20px;
+    left: -20px;
+  }
+ 
+/* exercise Five */
+
+   .fiveTwo {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+  }
+  
+  .fiveThree {
+    position: absolute;
+    top: -40px;
+  }
+  
+  .fiveFour {
+    position: absolute;
+    top: -200px;
+    left: -440px;
+  }
